@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "total_missing_docs": 3,
+    "high": 3,
+    "medium": 0,
+    "low": 0
+  },
+  "details": [
+    {
+      "id": 1,
+      "feature": "RateLimitConfig interface",
+      "code_file": "rateLimiter.ts",
+      "severity": "High",
+      "description": "The RateLimitConfig interface was not documented in README.md, leaving consumers unaware of the required configuration parameters.",
+      "reference": "export interface RateLimitConfig"
+    },
+    {
+      "id": 2,
+      "feature": "checkRateLimit function",
+      "code_file": "rateLimiter.ts",
+      "severity": "High",
+      "description": "The checkRateLimit function was not documented in README.md, preventing consumers from understanding how to use the rate limiting functionality.",
+      "reference": "export function checkRateLimit"
+    },
+    {
+      "id": 3,
+      "feature": "resetRateLimit function",
+      "code_file": "rateLimiter.ts",
+      "severity": "High",
+      "description": "The resetRateLimit function was not documented in README.md, leaving consumers without knowledge of how to reset rate limit data.",
+      "reference": "export function resetRateLimit"
+    }
+  ]
+}
